@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "TLLRegular";
+  src: url("https://cdn.jsdelivr.net/gh/SkinZ-Mis/Fuentes@main/TheLuneLasthing/TLLRegular.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/SkinZ-Mis/Fuentes@main/TheLuneLasthing/TLLRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TLLItalic";
+  src: url("https://cdn.jsdelivr.net/gh/SkinZ-Mis/Fuentes@main/TheLuneLasthing/TLLItalic.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/SkinZ-Mis/Fuentes@main/TheLuneLasthing/TLLItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.beronrol .tabro3title b {
+  font-family: 'TLLRegular';
+  font-weight: 500;
+  font-size: 45px;
+  color: #f5f5f5;
+}
+
+.beronrol .tabro3text {
+  color: #ababab;
+}
+
+.beronrol .tabro3text strong {
+  color: var(--group);
+}
+
+.beronrol .datawald {
+  display: flex;
+  justify-content: space-between;
+  margin: -20px;
+  margin-top: 0px;
+  gap: 10px;
+}
+
+.beronrol .datawald b {
+  font-family: "Lora", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #c1c1c1;
+  border: var(--border2);
+  flex: 1;
+  text-align: center;
+  line-height: 100%;
+  padding: 8px 5px;
+  background: var(--dbckg3);
+}
+
+.walderra-rol .datawald a {
+  color: #c1c1c1 !important;
+}
